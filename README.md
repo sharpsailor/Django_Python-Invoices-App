@@ -31,6 +31,8 @@ You need to create a single url /invoices/ for this
 
 - Create test cases to test all the API endpoints.
 ```
+## WalkThrough Video 
+https://www.loom.com/share/ee759dc6e1214be6b8285e640b66454d?sid=a677beaa-e6c0-48b1-b7ad-8c223893fa82
 
 ## 1. Clone repository
 
