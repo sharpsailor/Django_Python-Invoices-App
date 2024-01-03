@@ -35,11 +35,11 @@ You need to create a single url /invoices/ for this
 ## 1. Clone repository
 
 ```bash
-git clone https://github.com/username/repo_name.git    
+git clone https://github.com/sharpsailor/Django_Python-Invoices-App.git 
 ```
 ## 2. Setup Virtual Environment
 ```bash
-cd repo_name
+cd Django_Python-Invoices-App
 python3 -m venv venv 
 source venv/bin/activate
 ```
