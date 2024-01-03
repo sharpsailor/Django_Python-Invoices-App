@@ -47,14 +47,18 @@ source venv/bin/activate
 ```bash
 pip install -r requirements
 ```
-
-## 4. Runserver Command
+## 4. Make Migrations 
+```bash
+ python3 manage.py makemigrations
+ python3 manage.py migrate
+```
+## 5. Runserver Command
 ```bash
 python3 manage.py runserver 8000
 ```
  This command will run the server on the the local host at Port 8000, you can change the port by passing the port number instead of 8000 here .
 
-## 5. API Endpoints 
+## 6. API Endpoints 
     The Api endpoint will be as follows:
 - ```localhost:8000/api/invoices``` and this Api endpoint will be the first endpoint  in the list of endpoints i.e /invoices/
 
@@ -71,7 +75,7 @@ endpoint  in the list of endpoints i.e /invoices/<int:pk>/
     Price =unit_price * quantity
  ```  
 
-## 6. Test
+## 7. Test
 
 ```bash
 python3 manage.py test invoices.tests.InvoiceTests 
