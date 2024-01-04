@@ -47,7 +47,7 @@ source venv/bin/activate
 ```
 ## 3.Install requirements
 ```bash
-pip install -r requirements
+pip install -r requirements.txt
 ```
 ## 4. Make Migrations 
 ```bash
